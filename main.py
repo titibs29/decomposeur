@@ -1,6 +1,3 @@
-from ctypes.wintypes import HENHMETAFILE
-
-
 # composition d'une courbe sur base de sa serie de fourier
 
 # auteurs:
