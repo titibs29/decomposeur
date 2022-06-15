@@ -1,9 +1,11 @@
+from signals import convToFourier
+
+#signal à convertir
 signal =[5,5,5,5,5,-5,-5,-5,-5,-5,5,5,5,5,5,-5,-5,-5,-5,-5,5,5,5,5,5,-5,-5,-5,-5,-5,5,5,5,5,5,-5,-5,-5,-5,-5,5,5,5,5,5,-5,-5,-5,-5,-5,5,5,5,5,5,-5,-5,-5,-5,-5,5,5,5,5,5,-5,-5,-5,-5,-5,5,5,5,5,5,-5,-5,-5,-5,-5,]
 
-def signal2fourier:
-    return 1
 
 
 if __name__ == "__main__":
+    # boucle principale
     fourier = []
-    fourier = signal2fourier(signal)
+    fourier = convToFourier(signal)
